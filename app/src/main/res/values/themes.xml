@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Theme.TV4" parent="@style/Theme.Leanback" />
+
+    <style name="Theme.TV4.Fullscreen" parent="Theme.TV4">
+        <item name="android:actionBarStyle">@style/Widget.Theme.TV4.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.TV4.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+</resources>

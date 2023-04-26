@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="Widget.Theme.TV4.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.TV4.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="Theme.Example.Leanback" parent="Theme.Leanback">
+        <item name="searchOrbViewStyle">@style/CustomSearchOrbView</item>
+    </style>
+
+    <style name="CustomSearchOrbView" parent="Widget.Leanback.SearchOrbViewStyle">
+        <item name="searchOrbIcon">@drawable/img_1</item>
+    </style>
+
+</resources>
+
